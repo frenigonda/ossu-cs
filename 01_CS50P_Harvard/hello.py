@@ -27,3 +27,10 @@ print("Hello,", name, sep=" ")
 first, last = name.split()
 
 print(f"Hello, {last}")
+
+# Creating hello function 
+def hello(fullName: str = "World"):
+    print(f"Hello, {fullName}!")
+
+hello(name)
+hello()
